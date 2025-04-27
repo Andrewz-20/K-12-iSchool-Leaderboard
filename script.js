@@ -26,8 +26,8 @@ function renderTutors(tutors) {
         <div class="graduate-card">
             <img src="${tutor.ImageURL}" class="graduate-avatar" alt="${tutor.Name}">
             <h3 class="graduate-name">${formatName(tutor.Name)}</h3>
-            <p class="graduate-degree">Level ${tutor.Level}</p>
-            <p class="graduate-date">XP: ${tutor.XP}</p>
+            <p class="graduate-degree">24/24</p>
+            <p class="graduate-date">Date: 02/2025 </p>
         </div>
     `).join('');
 }
